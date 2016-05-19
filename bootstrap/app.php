@@ -11,7 +11,7 @@
 |
 */
 
-$app = new Illuminate\Foundation\Application(
+$app = new Collejo\Core\Foundation\Application(
     realpath(__DIR__.'/../')
 );
 
@@ -27,17 +27,17 @@ $app = new Illuminate\Foundation\Application(
 */
 
 $app->singleton(
-    Illuminate\Contracts\Http\Kernel::class,
+    Collejo\Core\Contracts\Http\Kernel::class,
     Collejo\Http\Kernel::class
 );
 
 $app->singleton(
-    Illuminate\Contracts\Console\Kernel::class,
+    Collejo\Core\Contracts\Console\Kernel::class,
     Collejo\Console\Kernel::class
 );
 
 $app->singleton(
-    Illuminate\Contracts\Debug\ExceptionHandler::class,
+    Collejo\Core\Contracts\Debug\ExceptionHandler::class,
     Collejo\Exceptions\Handler::class
 );
 
