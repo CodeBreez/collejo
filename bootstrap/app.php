@@ -32,12 +32,12 @@ $app->singleton(
 );
 
 $app->singleton(
-    Collejo\Core\Contracts\Console\Kernel::class,
+    Illuminate\Contracts\Console\Kernel::class,
     Collejo\Console\Kernel::class
 );
 
 $app->singleton(
-    Collejo\Core\Contracts\Debug\ExceptionHandler::class,
+    Illuminate\Contracts\Debug\ExceptionHandler::class,
     Collejo\Exceptions\Handler::class
 );
 
