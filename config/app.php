@@ -147,6 +147,7 @@ return [
         Collejo\Core\Providers\Translation\TranslationServiceProvider::class,
         Collejo\Core\Providers\Validation\ValidationServiceProvider::class,
         Collejo\Core\Providers\View\ViewServiceProvider::class,
+        Collejo\Core\Providers\Repository\RepositoryServiceProvider::class,
 
         /*
          * Collejo Service Providers...
