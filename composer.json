@@ -1,7 +1,7 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "name": "CodeBreez/collejo",
+    "description": "Collejo",
+    "keywords": ["Collejo"],
     "license": "MIT",
     "type": "project",
     "require": {
