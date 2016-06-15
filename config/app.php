@@ -153,7 +153,6 @@ return [
          * Collejo Service Providers...
          */
         Collejo\App\Providers\AppServiceProvider::class,
-        Collejo\App\Providers\SetupServiceProvider::class,
         Collejo\App\Providers\AuthServiceProvider::class,
         Collejo\App\Providers\EventServiceProvider::class,
         Collejo\App\Providers\RouteServiceProvider::class,
@@ -206,6 +205,7 @@ return [
         'Validator' => Collejo\Core\Support\Facades\Validator::class,
         'View' => Collejo\Core\Support\Facades\View::class,
 
+        'Module' => Collejo\Core\Support\Facades\Module::class,
         'Theme' => Collejo\Core\Support\Facades\Theme::class,
         'Menu' => Collejo\Core\Support\Facades\Menu::class,
         'Asset' => Collejo\Core\Foundation\Theme\Asset::class,
