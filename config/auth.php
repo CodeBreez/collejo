@@ -67,7 +67,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => Collejo\Models\User::class,
+            'model' => Collejo\App\Models\User::class,
         ],
 
         // 'users' => [

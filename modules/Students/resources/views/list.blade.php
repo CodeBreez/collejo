@@ -1,0 +1,4 @@
+students
+
+
+{{ dd(Menu::all()) }}
