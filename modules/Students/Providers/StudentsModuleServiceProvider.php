@@ -2,28 +2,26 @@
 
 namespace Collejo\Modules\Students\Providers;
 
-use Collejo\Core\Support\ModuleServiceProvider;
+use Collejo\Core\Providers\Module\ModuleServiceProvider as BaseModuleServiceProvider;
 
-class StudentsModuleServiceProvider extends ModuleServiceProvider
+class StudentsModuleServiceProvider extends BaseModuleServiceProvider
 {
 
-    private $namespace = 'Collejo\Modules\Students\Http\Controllers';
+    protected $namespace = 'Collejo\Modules\Students\Http\Controllers';
+
+    protected $name = 'student';
+
+    protected $permissions = [
+        'create_student' => 'Create students',
+        'edit_student' => 'Edit students',
+        'delete_student' => 'Delete students',
+        'undelete_student' => 'Undelete students',
+        'view_student' => 'View students'
+    ];
 
     public function boot()
     {
-        $this->loadViewsFrom([realpath(__DIR__ . '/../resources/views')], 'student');
-        
-        $this->loadTranslationsFrom(realpath(__DIR__ . '/../resources/lang'), 'student');
-
-    }
-
-    public function map(Router $router)
-    {
-        $router->group([
-            'namespace' => $this->namespace, 'middleware' => 'web',
-        ], function ($router) {
-            require_once realpath(__DIR__ . '/../Http/routes.php');
-        });
+        $this->initModule();
     }
 
     public function register()
