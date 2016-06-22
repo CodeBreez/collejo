@@ -9,7 +9,7 @@ class StudentsModuleServiceProvider extends BaseModuleServiceProvider
 
     protected $namespace = 'Collejo\Modules\Students\Http\Controllers';
 
-    protected $name = 'student';
+    protected $name = 'students';
 
     protected $permissions = [
         'create_student' => 'Create students',
