@@ -210,7 +210,8 @@ return [
         'Menu' => Collejo\Core\Support\Facades\Menu::class,
         'Asset' => Collejo\Core\Foundation\Theme\Asset::class,
 
-        'Uuid' => Webpatser\Uuid\Uuid::class
+        'Uuid' => Webpatser\Uuid\Uuid::class,
+        'Carbon' => Carbon\Carbon::class
     ],
 
 ];
