@@ -159,6 +159,7 @@ return [
         Collejo\App\Providers\ModuleServiceProvider::class,
         Collejo\App\Providers\ThemeServiceProvider::class,
 
+        HieuLe\Active\ActiveServiceProvider::class,
     ],
 
     /*
@@ -211,7 +212,8 @@ return [
         'Asset' => Collejo\Core\Foundation\Theme\Asset::class,
 
         'Uuid' => Webpatser\Uuid\Uuid::class,
-        'Carbon' => Carbon\Carbon::class
+        'Carbon' => Carbon\Carbon::class,
+        'Active' => HieuLe\Active\Facades\Active::class,
     ],
 
 ];
