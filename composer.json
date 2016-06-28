@@ -6,7 +6,8 @@
     "type": "project",
     "require": {
         "php": ">=5.5.9",
-        "codebreez/collejo-app": "dev-master"
+        "codebreez/collejo-app": "dev-master",
+        "codebreez/collejo-core": "dev-master"
     },
     "minimum-stability": "dev",
     "autoload": {
