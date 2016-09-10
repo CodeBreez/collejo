@@ -115,12 +115,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codebreez/collejo-core.git",
-                "reference": "79121d941f3d88a944e559af903d7f780990696b"
+                "reference": "cbe667d6ec969b39eefbe12301e8d994b68ed18f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codebreez/collejo-core/zipball/79121d941f3d88a944e559af903d7f780990696b",
-                "reference": "79121d941f3d88a944e559af903d7f780990696b",
+                "url": "https://api.github.com/repos/codebreez/collejo-core/zipball/cbe667d6ec969b39eefbe12301e8d994b68ed18f",
+                "reference": "cbe667d6ec969b39eefbe12301e8d994b68ed18f",
                 "shasum": ""
             },
             "require": {
@@ -139,7 +139,7 @@
                     "email": "astroanu2004@gmail.com"
                 }
             ],
-            "time": "2016-09-10 20:32:51"
+            "time": "2016-09-10 20:54:35"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
