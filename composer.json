@@ -8,13 +8,22 @@
         "php": ">=5.5.9",
         "codebreez/collejo-app": "dev-master"
     },
+    "require-dev": {
+        "fzaninotto/faker": "~1.4",
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "~4.0",
+        "symfony/css-selector": "2.8.*|3.0.*",
+        "symfony/dom-crawler": "2.8.*|3.0.*",
+        "itsgoingd/clockwork": "^1.12"
+    },
     "minimum-stability": "dev",
     "autoload": {
         "classmap": [
             "database"
         ],
         "psr-4": {
-            "Collejo\\Modules\\": "modules"
+            "Collejo\\Modules\\": "modules",
+            "App\\Tests\\": "tests"
         }
     },
     "scripts": {

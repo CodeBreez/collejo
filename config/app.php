@@ -108,7 +108,7 @@ return [
     |
     */
 
-    'log' => env('APP_LOG', 'single'),
+    'log' => env('APP_LOG', 'errorlog'),
 
     /*
     |--------------------------------------------------------------------------
@@ -122,44 +122,7 @@ return [
     */
 
     'providers' => [
-
-        /*
-         * Laravel Framework Service Providers...
-         */
-        Collejo\Core\Providers\Auth\AuthServiceProvider::class,
-        Collejo\Core\Providers\Broadcasting\BroadcastServiceProvider::class,
-        Collejo\Core\Providers\Bus\BusServiceProvider::class,
-        Collejo\Core\Providers\Cache\CacheServiceProvider::class,
-        Collejo\Core\Providers\Foundation\Providers\ConsoleSupportServiceProvider::class,
-        Collejo\Core\Providers\Cookie\CookieServiceProvider::class,
-        Collejo\Core\Providers\Database\DatabaseServiceProvider::class,
-        Collejo\Core\Providers\Encryption\EncryptionServiceProvider::class,
-        Collejo\Core\Providers\Filesystem\FilesystemServiceProvider::class,
-        Collejo\Core\Providers\Foundation\Providers\FoundationServiceProvider::class,
-        Collejo\Core\Providers\Hashing\HashServiceProvider::class,
-        Collejo\Core\Providers\Mail\MailServiceProvider::class,
-        Collejo\Core\Providers\Pagination\PaginationServiceProvider::class,
-        Collejo\Core\Providers\Pipeline\PipelineServiceProvider::class,
-        Collejo\Core\Providers\Queue\QueueServiceProvider::class,
-        Collejo\Core\Providers\Redis\RedisServiceProvider::class,
-        Collejo\Core\Providers\Auth\Passwords\PasswordResetServiceProvider::class,
-        Collejo\Core\Providers\Session\SessionServiceProvider::class,
-        Collejo\Core\Providers\Translation\TranslationServiceProvider::class,
-        Collejo\Core\Providers\Validation\ValidationServiceProvider::class,
-        Collejo\Core\Providers\View\ViewServiceProvider::class,
-        Collejo\Core\Providers\Repository\RepositoryServiceProvider::class,
-
-        /*
-         * Collejo Service Providers...
-         */
-        Collejo\App\Providers\AppServiceProvider::class,
-        Collejo\App\Providers\AuthServiceProvider::class,
-        Collejo\App\Providers\EventServiceProvider::class,
-        Collejo\App\Providers\RouteServiceProvider::class,
-        Collejo\App\Providers\ModuleServiceProvider::class,
-        Collejo\App\Providers\ThemeServiceProvider::class,
-
-        HieuLe\Active\ActiveServiceProvider::class,
+        
     ],
 
     /*
@@ -175,45 +138,7 @@ return [
 
     'aliases' => [
 
-        'App' => Collejo\Core\Support\Facades\App::class,
-        'Artisan' => Collejo\Core\Support\Facades\Artisan::class,
-        'Auth' => Collejo\Core\Support\Facades\Auth::class,
-        'Blade' => Collejo\Core\Support\Facades\Blade::class,
-        'Cache' => Collejo\Core\Support\Facades\Cache::class,
-        'Config' => Collejo\Core\Support\Facades\Config::class,
-        'Cookie' => Collejo\Core\Support\Facades\Cookie::class,
-        'Crypt' => Collejo\Core\Support\Facades\Crypt::class,
-        'DB' => Collejo\Core\Support\Facades\DB::class,
-        'Eloquent' => Collejo\Core\Database\Eloquent\Model::class,
-        'Event' => Collejo\Core\Support\Facades\Event::class,
-        'File' => Collejo\Core\Support\Facades\File::class,
-        'Gate' => Collejo\Core\Support\Facades\Gate::class,
-        'Hash' => Collejo\Core\Support\Facades\Hash::class,
-        'Lang' => Collejo\Core\Support\Facades\Lang::class,
-        'Log' => Collejo\Core\Support\Facades\Log::class,
-        'Mail' => Collejo\Core\Support\Facades\Mail::class,
-        'Password' => Collejo\Core\Support\Facades\Password::class,
-        'Queue' => Collejo\Core\Support\Facades\Queue::class,
-        'Redirect' => Collejo\Core\Support\Facades\Redirect::class,
-        'Redis' => Collejo\Core\Support\Facades\Redis::class,
-        'Request' => Collejo\Core\Support\Facades\Request::class,
-        'Response' => Collejo\Core\Support\Facades\Response::class,
-        'Route' => Collejo\Core\Support\Facades\Route::class,
-        'Schema' => Collejo\Core\Support\Facades\Schema::class,
-        'Session' => Collejo\Core\Support\Facades\Session::class,
-        'Storage' => Collejo\Core\Support\Facades\Storage::class,
-        'URL' => Collejo\Core\Support\Facades\URL::class,
-        'Validator' => Collejo\Core\Support\Facades\Validator::class,
-        'View' => Collejo\Core\Support\Facades\View::class,
 
-        'Module' => Collejo\Core\Support\Facades\Module::class,
-        'Theme' => Collejo\Core\Support\Facades\Theme::class,
-        'Menu' => Collejo\Core\Support\Facades\Menu::class,
-        'Asset' => Collejo\Core\Foundation\Theme\Asset::class,
-
-        'Uuid' => Webpatser\Uuid\Uuid::class,
-        'Carbon' => Carbon\Carbon::class,
-        'Active' => HieuLe\Active\Facades\Active::class,
     ],
 
 ];
