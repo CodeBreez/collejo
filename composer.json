@@ -37,8 +37,7 @@
             "Illuminate\\Foundation\\ComposerScripts::postInstall",
             "php artisan optimize",
             "chmod -R 755 storage bootstrap/cache",
-            "php artisan asset:copy",
-            "php artisan migrate:copy"
+            "php artisan asset:copy"
         ],
         "post-update-cmd": [
             "Illuminate\\Foundation\\ComposerScripts::postUpdate",
