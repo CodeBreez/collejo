@@ -67,12 +67,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codebreez/collejo-app.git",
-                "reference": "3d1d4e241868b42f508c9a555e26bffef6682bb3"
+                "reference": "b0c1b608884aae64d5591a63c46077fa84c2dd6f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codebreez/collejo-app/zipball/3d1d4e241868b42f508c9a555e26bffef6682bb3",
-                "reference": "3d1d4e241868b42f508c9a555e26bffef6682bb3",
+                "url": "https://api.github.com/repos/codebreez/collejo-app/zipball/b0c1b608884aae64d5591a63c46077fa84c2dd6f",
+                "reference": "b0c1b608884aae64d5591a63c46077fa84c2dd6f",
                 "shasum": ""
             },
             "require": {
@@ -107,7 +107,7 @@
                     "email": "astroanu2004@gmail.com"
                 }
             ],
-            "time": "2016-09-10 20:32:05"
+            "time": "2016-09-11 09:42:43"
         },
         {
             "name": "codebreez/collejo-core",
@@ -115,12 +115,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codebreez/collejo-core.git",
-                "reference": "cbe667d6ec969b39eefbe12301e8d994b68ed18f"
+                "reference": "3906534a3345f643554bfc867682a749da54e437"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codebreez/collejo-core/zipball/cbe667d6ec969b39eefbe12301e8d994b68ed18f",
-                "reference": "cbe667d6ec969b39eefbe12301e8d994b68ed18f",
+                "url": "https://api.github.com/repos/codebreez/collejo-core/zipball/3906534a3345f643554bfc867682a749da54e437",
+                "reference": "3906534a3345f643554bfc867682a749da54e437",
                 "shasum": ""
             },
             "require": {
@@ -139,7 +139,7 @@
                     "email": "astroanu2004@gmail.com"
                 }
             ],
-            "time": "2016-09-10 20:54:35"
+            "time": "2016-09-11 09:54:29"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
