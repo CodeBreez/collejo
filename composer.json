@@ -23,7 +23,7 @@
         ],
         "psr-4": {
             "Collejo\\Modules\\": "modules",
-            "App\\Tests\\": "tests"
+            "Tests\\": "tests"
         }
     },
     "scripts": {
