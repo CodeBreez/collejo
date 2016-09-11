@@ -35,11 +35,10 @@
         ],
         "post-install-cmd": [
             "Illuminate\\Foundation\\ComposerScripts::postInstall",
-            "php -r \"copy('.env.example', '.env');\"",
             "php artisan optimize",
             "chmod -R 755 storage bootstrap/cache",
             "php artisan asset:copy",
-            "yes | php artisan migrate:copy"
+            "php artisan migrate:copy"
         ],
         "post-update-cmd": [
             "Illuminate\\Foundation\\ComposerScripts::postUpdate",
