@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3b742276442eda71389d21b0b0b4e1eb",
+    "hash": "fba4557ff756459f85693735d532533a",
     "content-hash": "7b78bae7c079a621fe29b89612f6fdd6",
     "packages": [
         {
@@ -67,12 +67,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codebreez/collejo-app.git",
-                "reference": "b0c1b608884aae64d5591a63c46077fa84c2dd6f"
+                "reference": "e5cb895cf8e249e5cc79955070e0cc55247c0f57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codebreez/collejo-app/zipball/b0c1b608884aae64d5591a63c46077fa84c2dd6f",
-                "reference": "b0c1b608884aae64d5591a63c46077fa84c2dd6f",
+                "url": "https://api.github.com/repos/codebreez/collejo-app/zipball/e5cb895cf8e249e5cc79955070e0cc55247c0f57",
+                "reference": "e5cb895cf8e249e5cc79955070e0cc55247c0f57",
                 "shasum": ""
             },
             "require": {
@@ -107,7 +107,7 @@
                     "email": "astroanu2004@gmail.com"
                 }
             ],
-            "time": "2016-09-11 09:42:43"
+            "time": "2016-09-12 14:27:16"
         },
         {
             "name": "codebreez/collejo-core",
@@ -115,12 +115,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codebreez/collejo-core.git",
-                "reference": "3906534a3345f643554bfc867682a749da54e437"
+                "reference": "d8f637eccf8abd37bd4be8d03e902d6b6f0e5d43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codebreez/collejo-core/zipball/3906534a3345f643554bfc867682a749da54e437",
-                "reference": "3906534a3345f643554bfc867682a749da54e437",
+                "url": "https://api.github.com/repos/codebreez/collejo-core/zipball/d8f637eccf8abd37bd4be8d03e902d6b6f0e5d43",
+                "reference": "d8f637eccf8abd37bd4be8d03e902d6b6f0e5d43",
                 "shasum": ""
             },
             "require": {
@@ -139,7 +139,7 @@
                     "email": "astroanu2004@gmail.com"
                 }
             ],
-            "time": "2016-09-11 09:54:29"
+            "time": "2016-09-12 14:28:13"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -2259,12 +2259,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "54b24af89a6a97b59938bc63bfb8eea109ea27c2"
+                "reference": "ccec426bfe420235bc5ceeefc7641e53204e1693"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/54b24af89a6a97b59938bc63bfb8eea109ea27c2",
-                "reference": "54b24af89a6a97b59938bc63bfb8eea109ea27c2",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/ccec426bfe420235bc5ceeefc7641e53204e1693",
+                "reference": "ccec426bfe420235bc5ceeefc7641e53204e1693",
                 "shasum": ""
             },
             "require": {
@@ -2301,7 +2301,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2016-09-09 11:59:46"
+            "time": "2016-09-12 07:51:30"
         },
         {
             "name": "hamcrest/hamcrest-php",
