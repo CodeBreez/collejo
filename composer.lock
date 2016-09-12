@@ -67,12 +67,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codebreez/collejo-app.git",
-                "reference": "e5cb895cf8e249e5cc79955070e0cc55247c0f57"
+                "reference": "3e6f7287447872158a9afab9a9507eb297aebcf3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codebreez/collejo-app/zipball/e5cb895cf8e249e5cc79955070e0cc55247c0f57",
-                "reference": "e5cb895cf8e249e5cc79955070e0cc55247c0f57",
+                "url": "https://api.github.com/repos/codebreez/collejo-app/zipball/3e6f7287447872158a9afab9a9507eb297aebcf3",
+                "reference": "3e6f7287447872158a9afab9a9507eb297aebcf3",
                 "shasum": ""
             },
             "require": {
@@ -101,13 +101,16 @@
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
             "authors": [
                 {
                     "name": "Anuradha Jayathilaka",
                     "email": "astroanu2004@gmail.com"
                 }
             ],
-            "time": "2016-09-12 14:27:16"
+            "time": "2016-09-12 14:34:36"
         },
         {
             "name": "codebreez/collejo-core",
@@ -115,12 +118,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codebreez/collejo-core.git",
-                "reference": "d8f637eccf8abd37bd4be8d03e902d6b6f0e5d43"
+                "reference": "13b26958dd59304e63bbadfe18c69c78b1af5231"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codebreez/collejo-core/zipball/d8f637eccf8abd37bd4be8d03e902d6b6f0e5d43",
-                "reference": "d8f637eccf8abd37bd4be8d03e902d6b6f0e5d43",
+                "url": "https://api.github.com/repos/codebreez/collejo-core/zipball/13b26958dd59304e63bbadfe18c69c78b1af5231",
+                "reference": "13b26958dd59304e63bbadfe18c69c78b1af5231",
                 "shasum": ""
             },
             "require": {
@@ -133,13 +136,16 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
             "authors": [
                 {
                     "name": "Anuradha Jayathilaka",
                     "email": "astroanu2004@gmail.com"
                 }
             ],
-            "time": "2016-09-12 14:28:13"
+            "time": "2016-09-12 14:33:44"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
