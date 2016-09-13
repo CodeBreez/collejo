@@ -8,8 +8,8 @@ before_script:
   - sudo echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config  
   - ssh-keyscan -H -t rsa,dsa github.com >> ~/.ssh/known_hosts
   - sudo git clone https://github.com/astroanu/collejo-tests.git tests
-  - sudo cp ~/home/travis/tests/phpunit.xml.sample ~/home/travis/phpunit.xml
-  - sudo cp ~/home/travis/tests/env.sample ~/home/travis/.env
-  - sudo git clone git@github.com:astroanu/collejo-db-fatories.git ~/home/travis/database/factories
+  - sudo cp tests/phpunit.xml.sample phpunit.xml
+  - sudo cp tests/env.sample .env
+  - sudo git clone git@github.com:astroanu/collejo-db-fatories.git database/factories
   - sudo php artisan migrate:copy
   - sudo composer dump-autoload -o
