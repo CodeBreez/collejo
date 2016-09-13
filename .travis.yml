@@ -7,7 +7,7 @@ php:
 before_script:
   - sudo echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config  
   - ssh-keyscan -H -t rsa,dsa github.com >> ~/.ssh/known_hosts
-  - sudo git clone git@github.com:astroanu/collejo-tests.git tests
+  - sudo git clone https://github.com/astroanu/collejo-tests.git tests
   - sudo cp ~/clone/tests/phpunit.xml.sample ~/clone/phpunit.xml
   - sudo cp ~/clone/tests/env.sample ~/clone/.env
   - sudo git clone git@github.com:astroanu/collejo-db-fatories.git ~/clone/database/factories
