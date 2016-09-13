@@ -6,6 +6,7 @@ php:
   - '7.0'
   - hhvm
   - nightly
+sudo: required  
 before_script:
   - git clone git@github.com:astroanu/collejo-tests.git tests
   - cp ~/clone/tests/phpunit.xml.sample ~/clone/phpunit.xml
