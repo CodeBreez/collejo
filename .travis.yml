@@ -5,6 +5,7 @@ php:
   - hhvm
   - nightly
 before_script:
+  - echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config  
   - sudo git clone git@github.com:astroanu/collejo-tests.git tests
   - sudo cp ~/clone/tests/phpunit.xml.sample ~/clone/phpunit.xml
   - sudo cp ~/clone/tests/env.sample ~/clone/.env
