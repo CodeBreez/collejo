@@ -11,8 +11,8 @@ before_script:
   - sudo cp tests/phpunit.xml.sample phpunit.xml
   - sudo cp tests/env.sample .env
   - sudo git clone https://github.com/astroanu/collejo-db-fatories.git database/factories
-  - sudo composer install
-  - sudo composer dump-auotload
-  - sudo php artisan migrate:copy
+  - composer install
+  - composer dump-autoload
+  - php artisan migrate:copy
   - sudo chmod -R 755 storage bootstrap/cache
-  - sudo composer dump-autoload -o
+  - composer dump-autoload -o
