@@ -1,16 +1,13 @@
 language: php
 php:
-  - '5.4'
-  - '5.5'
   - '5.6'
   - '7.0'
   - hhvm
   - nightly
-sudo: required  
 before_script:
-  - git clone git@github.com:astroanu/collejo-tests.git tests
-  - cp ~/clone/tests/phpunit.xml.sample ~/clone/phpunit.xml
-  - cp ~/clone/tests/env.sample ~/clone/.env
-  - git clone git@github.com:astroanu/collejo-db-fatories.git ~/clone/database/factories
-  - php artisan migrate:copy
-  - composer dump-autoload -o
+  - sudo git clone git@github.com:astroanu/collejo-tests.git tests
+  - sudo cp ~/clone/tests/phpunit.xml.sample ~/clone/phpunit.xml
+  - sudo cp ~/clone/tests/env.sample ~/clone/.env
+  - sudo git clone git@github.com:astroanu/collejo-db-fatories.git ~/clone/database/factories
+  - sudo php artisan migrate:copy
+  - sudo composer dump-autoload -o
