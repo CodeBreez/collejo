@@ -1,4 +1,6 @@
 language: php
+services:
+  - mysql
 php:
   - '5.6'
   - '7.0'
@@ -9,7 +11,7 @@ before_script:
   - ssh-keyscan -H -t rsa,dsa github.com >> ~/.ssh/known_hosts
   - sudo git clone https://github.com/astroanu/collejo-tests.git tests
   - sudo cp tests/phpunit.xml.sample phpunit.xml
-  - sudo cp tests/env.sample .env
+  - sudo cp tests/env.travis.sample .env
   - sudo git clone https://github.com/astroanu/collejo-db-fatories.git database/factories
   - composer install
   - composer dump-autoload
