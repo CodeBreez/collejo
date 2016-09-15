@@ -1,4 +1,4 @@
-[[https://github.com/codebreez/collejo-app/blob/master/src/resources/assets/images/collejo_mid.png]]
+![Collejo](https://raw.githubusercontent.com/codebreez/collejo-app/master/src/resources/assets/images/collejo_mid.png)
 
 # Collejo
 
