@@ -67,12 +67,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codebreez/collejo-app.git",
-                "reference": "94151861b1f322353f7fcf6b851c08faf94de768"
+                "reference": "039f67ecf1b40ccceb09e25f62bcc572d6801a93"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codebreez/collejo-app/zipball/94151861b1f322353f7fcf6b851c08faf94de768",
-                "reference": "94151861b1f322353f7fcf6b851c08faf94de768",
+                "url": "https://api.github.com/repos/codebreez/collejo-app/zipball/039f67ecf1b40ccceb09e25f62bcc572d6801a93",
+                "reference": "039f67ecf1b40ccceb09e25f62bcc572d6801a93",
                 "shasum": ""
             },
             "require": {
@@ -111,7 +111,7 @@
                     "email": "astroanu2004@gmail.com"
                 }
             ],
-            "time": "2016-09-17 15:27:08"
+            "time": "2016-09-18 10:50:38"
         },
         {
             "name": "codebreez/collejo-core",
@@ -119,12 +119,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codebreez/collejo-core.git",
-                "reference": "34d1b0a471c138585910269af1a6fed10ac0f917"
+                "reference": "2a093d8639abdd28f0d5edeecc02a0d6c49deb52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codebreez/collejo-core/zipball/34d1b0a471c138585910269af1a6fed10ac0f917",
-                "reference": "34d1b0a471c138585910269af1a6fed10ac0f917",
+                "url": "https://api.github.com/repos/codebreez/collejo-core/zipball/2a093d8639abdd28f0d5edeecc02a0d6c49deb52",
+                "reference": "2a093d8639abdd28f0d5edeecc02a0d6c49deb52",
                 "shasum": ""
             },
             "require": {
@@ -146,7 +146,7 @@
                     "email": "astroanu2004@gmail.com"
                 }
             ],
-            "time": "2016-09-17 14:37:37"
+            "time": "2016-09-18 10:49:43"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1501,12 +1501,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "20dc18ee3f12a956681dc91f126c2f39b3054dd9"
+                "reference": "9558911a4071ace3523c70ba4d0c6315b567f460"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/20dc18ee3f12a956681dc91f126c2f39b3054dd9",
-                "reference": "20dc18ee3f12a956681dc91f126c2f39b3054dd9",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/9558911a4071ace3523c70ba4d0c6315b567f460",
+                "reference": "9558911a4071ace3523c70ba4d0c6315b567f460",
                 "shasum": ""
             },
             "require": {
@@ -1553,7 +1553,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2016-09-06 23:13:31"
+            "time": "2016-09-17 14:23:22"
         },
         {
             "name": "symfony/finder",
