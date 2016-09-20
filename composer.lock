@@ -67,12 +67,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codebreez/collejo-app.git",
-                "reference": "039f67ecf1b40ccceb09e25f62bcc572d6801a93"
+                "reference": "d628bda0fba2b384958e7d65be9277fb4aa9f459"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codebreez/collejo-app/zipball/039f67ecf1b40ccceb09e25f62bcc572d6801a93",
-                "reference": "039f67ecf1b40ccceb09e25f62bcc572d6801a93",
+                "url": "https://api.github.com/repos/codebreez/collejo-app/zipball/d628bda0fba2b384958e7d65be9277fb4aa9f459",
+                "reference": "d628bda0fba2b384958e7d65be9277fb4aa9f459",
                 "shasum": ""
             },
             "require": {
@@ -111,7 +111,7 @@
                     "email": "astroanu2004@gmail.com"
                 }
             ],
-            "time": "2016-09-18 10:50:38"
+            "time": "2016-09-18 15:29:32"
         },
         {
             "name": "codebreez/collejo-core",
@@ -838,12 +838,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "f42fbdfd53e306bda545845e4dbfd3e72edb4952"
+                "reference": "dacec2fe1ead778f90d0149caa8f047a0856571b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/f42fbdfd53e306bda545845e4dbfd3e72edb4952",
-                "reference": "f42fbdfd53e306bda545845e4dbfd3e72edb4952",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/dacec2fe1ead778f90d0149caa8f047a0856571b",
+                "reference": "dacec2fe1ead778f90d0149caa8f047a0856571b",
                 "shasum": ""
             },
             "require": {
@@ -908,7 +908,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2016-07-29 03:23:52"
+            "time": "2016-09-18 16:07:11"
         },
         {
             "name": "mtdowling/cron-expression",
@@ -1212,12 +1212,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "d8e60a5619fff77f9669da8997697443ef1a1d7e"
+                "reference": "5277094ed527a1c4477177d102fe4c53551953e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/d8e60a5619fff77f9669da8997697443ef1a1d7e",
-                "reference": "d8e60a5619fff77f9669da8997697443ef1a1d7e",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/5277094ed527a1c4477177d102fe4c53551953e0",
+                "reference": "5277094ed527a1c4477177d102fe4c53551953e0",
                 "shasum": ""
             },
             "require": {
@@ -1251,7 +1251,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-01-06 21:40:42"
+            "time": "2016-09-19 16:02:08"
         },
         {
             "name": "psy/psysh",
@@ -2316,12 +2316,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "4e81236d14da84c86f3e96561d689845bcf559ef"
+                "reference": "57d1666335f24fbf9c60c6f1bb75c8b2dbc17052"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/4e81236d14da84c86f3e96561d689845bcf559ef",
-                "reference": "4e81236d14da84c86f3e96561d689845bcf559ef",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/57d1666335f24fbf9c60c6f1bb75c8b2dbc17052",
+                "reference": "57d1666335f24fbf9c60c6f1bb75c8b2dbc17052",
                 "shasum": ""
             },
             "require": {
@@ -2358,7 +2358,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2016-09-13 12:22:34"
+            "time": "2016-09-20 07:47:47"
         },
         {
             "name": "hamcrest/hamcrest-php",
@@ -3542,12 +3542,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "46b44cb89d05e691f2719d468fd476d57487b487"
+                "reference": "7fbb0dfc86370757774ff2d9bd5c3b89c9aac1a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/46b44cb89d05e691f2719d468fd476d57487b487",
-                "reference": "46b44cb89d05e691f2719d468fd476d57487b487",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/7fbb0dfc86370757774ff2d9bd5c3b89c9aac1a8",
+                "reference": "7fbb0dfc86370757774ff2d9bd5c3b89c9aac1a8",
                 "shasum": ""
             },
             "require": {
@@ -3589,7 +3589,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2016-09-14 23:17:14"
+            "time": "2016-09-20 08:33:13"
         },
         {
             "name": "webmozart/assert",
