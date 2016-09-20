@@ -9,3 +9,4 @@ public/js
 public/images
 workbench/*
 tests/
+database/*
