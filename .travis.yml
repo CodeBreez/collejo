@@ -15,6 +15,7 @@ before_script:
   - sudo cp tests/env.travis.sample .env
   - sudo rm -R database
   - sudo git clone https://github.com/astroanu/collejo-db-fatories.git database
+  - sudo mkdir database/migrations
   - composer install
   - composer dump-autoload
   - mysql -e 'create database test;'  
