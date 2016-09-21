@@ -2,20 +2,17 @@ language: php
 services:
   - mysql
 php:
-  - '5.5'  
-  - '5.6'
-  - '7.0'
-  - hhvm
-  - nightly
+  - '5.5'
 before_script:
   - sudo echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config  
   - ssh-keyscan -H -t rsa,dsa github.com >> ~/.ssh/known_hosts
   - sudo git clone https://github.com/astroanu/collejo-tests.git tests
   - sudo cp tests/phpunit.xml.sample phpunit.xml
   - sudo cp tests/env.travis.sample .env
-  - cd database
-  - sudo git clone https://github.com/astroanu/collejo-db-fatories.git .
-  - cd ../
+  - ls -las
+  - rm -R database
+  - ls -las
+  - sudo git clone https://github.com/astroanu/collejo-db-fatories.git database
   - composer install
   - composer dump-autoload
   - mysql -e 'create database test;'  
