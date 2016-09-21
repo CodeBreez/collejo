@@ -9,10 +9,9 @@ before_script:
   - sudo git clone https://github.com/astroanu/collejo-tests.git tests
   - sudo cp tests/phpunit.xml.sample phpunit.xml
   - sudo cp tests/env.travis.sample .env
-  - ls -las
   - rm -R database
-  - ls -las
   - sudo git clone https://github.com/astroanu/collejo-db-fatories.git database
+  - sudo chmod -R 755 database
   - composer install
   - composer dump-autoload
   - mysql -e 'create database test;'  
