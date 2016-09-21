@@ -15,6 +15,6 @@ before_script:
   - composer install
   - composer dump-autoload
   - mysql -e 'create database test;'  
-  - php artisan migrate:copy
+  - sudo php artisan migrate:copy
   - sudo chmod -R 755 storage bootstrap/cache
   - composer dump-autoload -o
