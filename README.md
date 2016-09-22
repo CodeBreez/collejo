@@ -1,6 +1,8 @@
-![Collejo](https://raw.githubusercontent.com/codebreez/collejo-app/master/src/resources/assets/images/collejo_mid.png)
 
-# Collejo
+<p align="center">
+    <img src="https://raw.githubusercontent.com/codebreez/collejo-app/master/src/resources/assets/images/collejo_mid.png?raw=true" alt="Collejo"/>
+    <h1 align="center">Collejo</h1>
+</p>
 
 [![Travis](https://img.shields.io/travis/codebreez/collejo.svg?maxAge=2592000)](https://travis-ci.org/codebreez/collejo)
 [![Tested](https://php-eye.com/badge/codebreez/collejo/tested.svg?branch=master)](https://php-eye.com/package/codebreez/collejo)
