@@ -67,12 +67,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codebreez/collejo-app.git",
-                "reference": "babe0bd8cda9fb9c59cfa29b8ca9bc8ce3330178"
+                "reference": "1c2236168f30d92eaa1cebc52215cc3e27a87967"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codebreez/collejo-app/zipball/babe0bd8cda9fb9c59cfa29b8ca9bc8ce3330178",
-                "reference": "babe0bd8cda9fb9c59cfa29b8ca9bc8ce3330178",
+                "url": "https://api.github.com/repos/codebreez/collejo-app/zipball/1c2236168f30d92eaa1cebc52215cc3e27a87967",
+                "reference": "1c2236168f30d92eaa1cebc52215cc3e27a87967",
                 "shasum": ""
             },
             "require": {
@@ -111,7 +111,7 @@
                     "email": "astroanu2004@gmail.com"
                 }
             ],
-            "time": "2016-09-21 09:36:49"
+            "time": "2016-09-25 11:10:44"
         },
         {
             "name": "codebreez/collejo-core",
@@ -119,12 +119,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codebreez/collejo-core.git",
-                "reference": "2a093d8639abdd28f0d5edeecc02a0d6c49deb52"
+                "reference": "2d2e973f18e1ba1aaed0978a83e2d18768ec8c28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codebreez/collejo-core/zipball/2a093d8639abdd28f0d5edeecc02a0d6c49deb52",
-                "reference": "2a093d8639abdd28f0d5edeecc02a0d6c49deb52",
+                "url": "https://api.github.com/repos/codebreez/collejo-core/zipball/2d2e973f18e1ba1aaed0978a83e2d18768ec8c28",
+                "reference": "2d2e973f18e1ba1aaed0978a83e2d18768ec8c28",
                 "shasum": ""
             },
             "require": {
@@ -146,7 +146,7 @@
                     "email": "astroanu2004@gmail.com"
                 }
             ],
-            "time": "2016-09-18 10:49:43"
+            "time": "2016-09-25 10:59:50"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -567,12 +567,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeremeamia/super_closure.git",
-                "reference": "8380a2b24c6a4dce90194cf3259910493d52df2d"
+                "reference": "2b338315d54ea37aa6c5e97f4d75a33ccf303503"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeremeamia/super_closure/zipball/8380a2b24c6a4dce90194cf3259910493d52df2d",
-                "reference": "8380a2b24c6a4dce90194cf3259910493d52df2d",
+                "url": "https://api.github.com/repos/jeremeamia/super_closure/zipball/2b338315d54ea37aa6c5e97f4d75a33ccf303503",
+                "reference": "2b338315d54ea37aa6c5e97f4d75a33ccf303503",
                 "shasum": ""
             },
             "require": {
@@ -586,7 +586,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.2-dev"
+                    "dev-master": "2.3-dev"
                 }
             },
             "autoload": {
@@ -617,7 +617,7 @@
                 "serialize",
                 "tokenizer"
             ],
-            "time": "2016-09-17 08:57:48"
+            "time": "2016-09-23 18:24:34"
         },
         {
             "name": "laravel/framework",
@@ -1501,12 +1501,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "9558911a4071ace3523c70ba4d0c6315b567f460"
+                "reference": "f6118190787912bc15de082ee9664eb0876a5b8b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/9558911a4071ace3523c70ba4d0c6315b567f460",
-                "reference": "9558911a4071ace3523c70ba4d0c6315b567f460",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/f6118190787912bc15de082ee9664eb0876a5b8b",
+                "reference": "f6118190787912bc15de082ee9664eb0876a5b8b",
                 "shasum": ""
             },
             "require": {
@@ -1553,7 +1553,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2016-09-17 14:23:22"
+            "time": "2016-09-20 15:12:39"
         },
         {
             "name": "symfony/finder",
@@ -2628,12 +2628,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/prophecy.git",
-                "reference": "d883566b83ae601a50b38b249e92450dc57cf875"
+                "reference": "d3be8294e4729abcf8e6e207f25cdcb299cd1c88"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/d883566b83ae601a50b38b249e92450dc57cf875",
-                "reference": "d883566b83ae601a50b38b249e92450dc57cf875",
+                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/d3be8294e4729abcf8e6e207f25cdcb299cd1c88",
+                "reference": "d3be8294e4729abcf8e6e207f25cdcb299cd1c88",
                 "shasum": ""
             },
             "require": {
@@ -2682,7 +2682,7 @@
                 "spy",
                 "stub"
             ],
-            "time": "2016-07-19 16:08:43"
+            "time": "2016-09-21 19:41:08"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -2933,12 +2933,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "41433b0d64caa3f2a73e415596dfa73490c262fc"
+                "reference": "d99e588e3cbab28db86f8da22e22c72d8cc38543"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/41433b0d64caa3f2a73e415596dfa73490c262fc",
-                "reference": "41433b0d64caa3f2a73e415596dfa73490c262fc",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/d99e588e3cbab28db86f8da22e22c72d8cc38543",
+                "reference": "d99e588e3cbab28db86f8da22e22c72d8cc38543",
                 "shasum": ""
             },
             "require": {
@@ -2997,7 +2997,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2016-08-28 06:58:45"
+            "time": "2016-09-22 17:37:27"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
