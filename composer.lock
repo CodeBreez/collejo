@@ -67,12 +67,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codebreez/collejo-app.git",
-                "reference": "25239da376aaa76cb0d8c4f81fa59bf061b5447f"
+                "reference": "081e694d983eeaa96c231050c0a289de18330987"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codebreez/collejo-app/zipball/25239da376aaa76cb0d8c4f81fa59bf061b5447f",
-                "reference": "25239da376aaa76cb0d8c4f81fa59bf061b5447f",
+                "url": "https://api.github.com/repos/codebreez/collejo-app/zipball/081e694d983eeaa96c231050c0a289de18330987",
+                "reference": "081e694d983eeaa96c231050c0a289de18330987",
                 "shasum": ""
             },
             "require": {
@@ -110,7 +110,42 @@
                     "email": "astroanu2004@gmail.com"
                 }
             ],
-            "time": "2016-09-26 19:06:25"
+            "time": "2016-09-26 18:07:26"
+        },
+        {
+            "name": "codebreez/collejo-core",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codebreez/collejo-core.git",
+                "reference": "d758ad6f06515a9e9307d3bbae961f9730fc45f8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codebreez/collejo-core/zipball/d758ad6f06515a9e9307d3bbae961f9730fc45f8",
+                "reference": "d758ad6f06515a9e9307d3bbae961f9730fc45f8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Collejo\\Core\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anuradha Jayathilaka",
+                    "email": "astroanu2004@gmail.com"
+                }
+            ],
+            "time": "2016-09-26 15:49:19"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
