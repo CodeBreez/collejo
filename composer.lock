@@ -67,12 +67,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codebreez/collejo-app.git",
-                "reference": "2a7ed3b1d9570aa5fd26ad9b2386091b22cb90a5"
+                "reference": "081e694d983eeaa96c231050c0a289de18330987"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codebreez/collejo-app/zipball/2a7ed3b1d9570aa5fd26ad9b2386091b22cb90a5",
-                "reference": "2a7ed3b1d9570aa5fd26ad9b2386091b22cb90a5",
+                "url": "https://api.github.com/repos/codebreez/collejo-app/zipball/081e694d983eeaa96c231050c0a289de18330987",
+                "reference": "081e694d983eeaa96c231050c0a289de18330987",
                 "shasum": ""
             },
             "require": {
@@ -111,7 +111,7 @@
                     "email": "astroanu2004@gmail.com"
                 }
             ],
-            "time": "2016-09-26 15:46:37"
+            "time": "2016-09-26 18:07:26"
         },
         {
             "name": "codebreez/collejo-core",
