@@ -10,3 +10,4 @@ public/images
 workbench/*
 tests/
 database/*
+phpunit.xml
