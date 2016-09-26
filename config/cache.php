@@ -76,6 +76,6 @@ return [
     |
     */
 
-    'prefix' => 'laravel',
+    'prefix' => 'collejo',
 
 ];
