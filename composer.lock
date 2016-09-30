@@ -67,12 +67,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codebreez/collejo-app.git",
-                "reference": "1867c92463d2cf73ecf622e7e314c762a3ca0b12"
+                "reference": "0a76d7bcb8ad553619e97723d352d2ddccba735d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codebreez/collejo-app/zipball/1867c92463d2cf73ecf622e7e314c762a3ca0b12",
-                "reference": "1867c92463d2cf73ecf622e7e314c762a3ca0b12",
+                "url": "https://api.github.com/repos/codebreez/collejo-app/zipball/0a76d7bcb8ad553619e97723d352d2ddccba735d",
+                "reference": "0a76d7bcb8ad553619e97723d352d2ddccba735d",
                 "shasum": ""
             },
             "require": {
@@ -110,7 +110,7 @@
                     "email": "astroanu2004@gmail.com"
                 }
             ],
-            "time": "2016-09-27 14:39:11"
+            "time": "2016-09-30 19:18:59"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -589,12 +589,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "557b9f62005639cfe6a20c26c3e7c9dc8a7a637a"
+                "reference": "c32d91c64504dd2baf40e8ba025ad348da4607a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/557b9f62005639cfe6a20c26c3e7c9dc8a7a637a",
-                "reference": "557b9f62005639cfe6a20c26c3e7c9dc8a7a637a",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/c32d91c64504dd2baf40e8ba025ad348da4607a1",
+                "reference": "c32d91c64504dd2baf40e8ba025ad348da4607a1",
                 "shasum": ""
             },
             "require": {
@@ -711,7 +711,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-08-26 16:26:18"
+            "time": "2016-09-28 15:50:15"
         },
         {
             "name": "league/flysystem",
@@ -802,12 +802,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "ffc421a4fd4e9651e236341f5ff3994b25a8ecc5"
+                "reference": "7f135e9ed0d5c3b6102f3df5d5fd258c6b746afc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/ffc421a4fd4e9651e236341f5ff3994b25a8ecc5",
-                "reference": "ffc421a4fd4e9651e236341f5ff3994b25a8ecc5",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/7f135e9ed0d5c3b6102f3df5d5fd258c6b746afc",
+                "reference": "7f135e9ed0d5c3b6102f3df5d5fd258c6b746afc",
                 "shasum": ""
             },
             "require": {
@@ -818,7 +818,7 @@
                 "psr/log-implementation": "1.0.0"
             },
             "require-dev": {
-                "aws/aws-sdk-php": "^2.4.9",
+                "aws/aws-sdk-php": "^2.4.9 || ^3.0",
                 "doctrine/couchdb": "~1.0@dev",
                 "graylog2/gelf-php": "~1.0",
                 "jakub-onderka/php-parallel-lint": "0.9",
@@ -872,7 +872,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2016-09-25 14:47:31"
+            "time": "2016-09-29 07:29:30"
         },
         {
             "name": "mtdowling/cron-expression",
@@ -2381,12 +2381,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/padraic/mockery.git",
-                "reference": "dc369985a60578ca38f3525e98c1038f84153bc6"
+                "reference": "65d4ca18e15cb02eeb1e5336f884e46b9b905be0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/padraic/mockery/zipball/dc369985a60578ca38f3525e98c1038f84153bc6",
-                "reference": "dc369985a60578ca38f3525e98c1038f84153bc6",
+                "url": "https://api.github.com/repos/padraic/mockery/zipball/65d4ca18e15cb02eeb1e5336f884e46b9b905be0",
+                "reference": "65d4ca18e15cb02eeb1e5336f884e46b9b905be0",
                 "shasum": ""
             },
             "require": {
@@ -2438,7 +2438,7 @@
                 "test double",
                 "testing"
             ],
-            "time": "2016-09-03 07:05:34"
+            "time": "2016-09-30 12:09:40"
         },
         {
             "name": "phpdocumentor/reflection-common",
@@ -2496,16 +2496,16 @@
         },
         {
             "name": "phpdocumentor/reflection-docblock",
-            "version": "3.1.0",
+            "version": "3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
-                "reference": "9270140b940ff02e58ec577c237274e92cd40cdd"
+                "reference": "8331b5efe816ae05461b7ca1e721c01b46bafb3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/9270140b940ff02e58ec577c237274e92cd40cdd",
-                "reference": "9270140b940ff02e58ec577c237274e92cd40cdd",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/8331b5efe816ae05461b7ca1e721c01b46bafb3e",
+                "reference": "8331b5efe816ae05461b7ca1e721c01b46bafb3e",
                 "shasum": ""
             },
             "require": {
@@ -2537,7 +2537,7 @@
                 }
             ],
             "description": "With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock.",
-            "time": "2016-06-10 09:48:41"
+            "time": "2016-09-30 07:12:33"
         },
         {
             "name": "phpdocumentor/type-resolver",
@@ -2592,12 +2592,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/prophecy.git",
-                "reference": "d3be8294e4729abcf8e6e207f25cdcb299cd1c88"
+                "reference": "c1016e6501312201ede77e3911748024d78cdd31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/d3be8294e4729abcf8e6e207f25cdcb299cd1c88",
-                "reference": "d3be8294e4729abcf8e6e207f25cdcb299cd1c88",
+                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/c1016e6501312201ede77e3911748024d78cdd31",
+                "reference": "c1016e6501312201ede77e3911748024d78cdd31",
                 "shasum": ""
             },
             "require": {
@@ -2608,7 +2608,8 @@
                 "sebastian/recursion-context": "^1.0"
             },
             "require-dev": {
-                "phpspec/phpspec": "^2.0"
+                "phpspec/phpspec": "^2.0",
+                "phpunit/phpunit": "^4.8 || ^5"
             },
             "type": "library",
             "extra": {
@@ -2646,7 +2647,7 @@
                 "spy",
                 "stub"
             ],
-            "time": "2016-09-21 19:41:08"
+            "time": "2016-09-28 11:19:12"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -3506,12 +3507,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "ef38bb2d8e9341a7a052526330b0f6693fb95138"
+                "reference": "f3abbc0c63c0c7803db79a7398bb983e5b089f53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/ef38bb2d8e9341a7a052526330b0f6693fb95138",
-                "reference": "ef38bb2d8e9341a7a052526330b0f6693fb95138",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/f3abbc0c63c0c7803db79a7398bb983e5b089f53",
+                "reference": "f3abbc0c63c0c7803db79a7398bb983e5b089f53",
                 "shasum": ""
             },
             "require": {
@@ -3553,7 +3554,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2016-09-25 16:21:58"
+            "time": "2016-09-28 14:20:56"
         },
         {
             "name": "webmozart/assert",
