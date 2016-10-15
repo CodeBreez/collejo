@@ -24,7 +24,8 @@ return [
 		'mime_types' => ['image/jpeg', 'image/png'],
 		'max_size' => 1000,
 		'resize' => [
-			'small' => [200, 200]
+			'small' => [200, 200],
+			'medium' => [600, 600]
 		]
 	],
 	'employee_pictures' => [
@@ -34,7 +35,8 @@ return [
 		'mime_types' => ['image/jpeg', 'image/png'],
 		'max_size' => 1000,
 		'resize' => [
-			'small' => [200, 200]
+			'small' => [200, 200],
+			'medium' => [600, 600]
 		]
 	],
 	'employee_attachments' => [
@@ -44,7 +46,8 @@ return [
 		'mime_types' => ['image/jpeg', 'image/png', 'application/pdf', 'application/msword'],
 		'max_size' => 10000,
 		'resize' => [
-			'small' => [200, 200]
+			'small' => [200, 200],
+			'medium' => [600, 600]
 		]
 	],
 ];

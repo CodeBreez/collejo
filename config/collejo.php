@@ -2,6 +2,12 @@
 
 return [
 
+	// authentication settings
+	'auth' => [
+		// living time of a re-authentication grant
+		'reauth_ttl' => 3600
+	],
+
 	// send emails on
 	'emails' => [
 		'new_user_password_create_request' => [
@@ -17,11 +23,6 @@ return [
 		'perpage' => 10
 	],
 
-	// assets
-	'assets' => [
-		'minified' => true
-	],
-
 	// app caching
 	'caching' => [
 		// cache each user's permissions
@@ -30,8 +31,13 @@ return [
 		'search_criteria' => 30
 	],
 
-	'modules' => [
-		// check module permissions in database on every request
-		'check_permissions' => false
-	]
+	// assets
+	'assets' => [
+		// load minified version of css and js
+		'minified' => true,
+
+		// load additional styles from
+		'theme' => null
+	],
+
 ];

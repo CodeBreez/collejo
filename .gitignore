@@ -7,7 +7,9 @@ Homestead.json
 public/css
 public/js
 public/images
+public/theme
 workbench/*
 tests/
+themes/
 database/*
 phpunit.xml
