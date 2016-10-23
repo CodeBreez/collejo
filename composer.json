@@ -6,7 +6,7 @@
     "type": "project",
     "require": {
         "php": ">=5.5.9",
-        "codebreez/collejo-app": "dev-master"
+        "codebreez/collejo-app": "1.0."
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -16,7 +16,7 @@
         "symfony/dom-crawler": "2.8.*|3.0.*",
         "itsgoingd/clockwork": "^1.12"
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "autoload": {
         "classmap": [
             "database"
