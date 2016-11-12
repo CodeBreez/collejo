@@ -1,6 +1,10 @@
 language: php
 services:
   - mysql
+branches:  
+  only:
+  - master
+  - dev
 php:
   - '5.5'  
   - '5.6'
@@ -8,14 +12,16 @@ php:
   - hhvm
   - nightly
 before_script:
+  - export BRANCH=$(if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then echo $TRAVIS_BRANCH; else echo $TRAVIS_PULL_REQUEST_BRANCH; fi)
+  - echo "TRAVIS_BRANCH=$TRAVIS_BRANCH, PR=$PR, BRANCH=$BRANCH"  
   - sudo echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config  
   - ssh-keyscan -H -t rsa,dsa github.com >> ~/.ssh/known_hosts
-  - sudo git clone https://github.com/astroanu/collejo-tests.git tests
+  - sudo git clone -b BRANCH https://github.com/astroanu/collejo-tests.git tests
   - sudo git rev-parse HEAD
   - sudo cp tests/phpunit.xml.sample phpunit.xml
   - sudo cp tests/env.travis.sample .env
   - rm -R database
-  - sudo git clone https://github.com/astroanu/collejo-db-fatories.git database
+  - sudo git clone -b BRANCH https://github.com/astroanu/collejo-db-fatories.git database
   - sudo git rev-parse HEAD
   - sudo chmod -R 755 database
   - composer install
