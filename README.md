@@ -4,7 +4,11 @@
     <h1 align="center">Collejo</h1>
 </p>
 
-[![Travis](https://img.shields.io/travis/codebreez/collejo.svg?maxAge=600)](https://travis-ci.org/codebreez/collejo)
+[![Travis](https://img.shields.io/travis/codebreez/collejo/master.svg?maxAge=600)](https://travis-ci.org/codebreez/collejo)
 [![Tested](https://php-eye.com/badge/codebreez/collejo/tested.svg?branch=master)](https://php-eye.com/package/codebreez/collejo)
 [![Dependency Status](https://img.shields.io/versioneye/d/user/projects/57d94e151b70a700396255cd.svg?maxAge=600)](https://www.versioneye.com/user/projects/57d94e151b70a700396255cd?child=summary)
 [![Laravel Version](https://img.shields.io/badge/Laravel-5.3.*-brightgreen.svg?maxAge=600)]()
+
+Collejo is an open source ERP for schools, colleges, universities and other educational institutions. Built on top of the popular PHP framework Laravel, Collejo is modular, theamable and easy to install and maintain.
+
+[Documentation](https://github.com/codebreez/collejo-docs)
