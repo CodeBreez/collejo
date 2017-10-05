@@ -9,6 +9,6 @@
 [![Dependency Status](https://img.shields.io/versioneye/d/user/projects/57d94e151b70a700396255cd.svg?maxAge=600)](https://www.versioneye.com/user/projects/57d94e151b70a700396255cd?child=summary)
 [![Laravel Version](https://img.shields.io/badge/Laravel-5.3.*-brightgreen.svg?maxAge=600)]()
 
-Collejo is an open source ERP for schools, colleges, universities and other educational institutions. Built on top of the popular PHP framework Laravel, Collejo is modular, theamable and easy to install and maintain.
+Collejo is an open source ERP for schools, colleges, universities and other educational institutions. Built on top of the popular PHP framework Laravel, Collejo is modular, themeable and easy to install and maintain.
 
 [Documentation](https://github.com/codebreez/collejo-docs)
