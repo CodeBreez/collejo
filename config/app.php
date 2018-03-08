@@ -122,7 +122,7 @@ return [
     */
 
     'providers' => [
-        
+
     ],
 
     /*
@@ -137,7 +137,6 @@ return [
     */
 
     'aliases' => [
-
 
     ],
 
