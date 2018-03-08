@@ -62,16 +62,16 @@
         },
         {
             "name": "codebreez/collejo-app",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codebreez/collejo-app.git",
-                "reference": "3eeb2b1f0b11f56b29b3c2f4b39458b770080106"
+                "reference": "ca226031c51502c90314ecd552a795119fb6642e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codebreez/collejo-app/zipball/3eeb2b1f0b11f56b29b3c2f4b39458b770080106",
-                "reference": "3eeb2b1f0b11f56b29b3c2f4b39458b770080106",
+                "url": "https://api.github.com/repos/codebreez/collejo-app/zipball/ca226031c51502c90314ecd552a795119fb6642e",
+                "reference": "ca226031c51502c90314ecd552a795119fb6642e",
                 "shasum": ""
             },
             "require": {
