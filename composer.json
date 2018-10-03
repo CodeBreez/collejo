@@ -6,7 +6,7 @@
     "type": "project",
     "require": {
         "php": ">=5.5.9",
-        "codebreez/collejo-app": "1.0.1"
+        "codebreez/collejo-app": "1.0.2"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
