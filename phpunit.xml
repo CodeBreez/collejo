@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit backupGlobals="false"
+         backupStaticAttributes="false"
+         bootstrap="vendor/autoload.php"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         stopOnFailure="false">
+    <testsuites>
+        <testsuite name="Foundation">
+            <directory suffix="Test.php">workbench/Collejo/Foundation</directory>
+        </testsuite>
+        <testsuite name="AppUnit">
+            <directory suffix="Test.php">workbench/Collejo/App/Modules/*/Tests/Unit</directory>
+            <directory suffix="Test.php">workbench/Collejo/App/Http/Tests/Unit</directory>
+        </testsuite>
+        <testsuite name="AppBrowser">
+            <directory suffix="Test.php">workbench/Collejo/App/Modules/*/Tests/Browser</directory>
+        </testsuite>
+        <testsuite name="AppHTTP">
+            <directory suffix="Test.php">workbench/Collejo/App/Modules/*/Tests/Http</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist>
+            <directory suffix=".php">workbench/Collejo</directory>
+        </whitelist>
+        <blacklist>
+            <directory>workbench/Collejo/App/Modules/*/Models/factories</directory>
+            <directory>workbench/Collejo/App/Modules/*/resources</directory>
+            <directory>workbench/Collejo/App/Console</directory>
+            <directory>workbench/Collejo/App/Http</directory>
+            <directory>workbench/Collejo/App/Providers</directory>
+        </blacklist>
+    </filter>
+    <php>
+        <ini name="display_errors" value="true"/>
+
+        <env name="APP_ENV" value="testing"/>
+        <env name="APP_KEY" value="base64:r9CrgofS5UeYvUr8Ns22br4bgFcdBUOD8oh+9TA/C6k="/>
+        <env name="CACHE_DRIVER" value="file"/>
+        <env name="SESSION_DRIVER" value="file"/>
+        <env name="QUEUE_DRIVER" value="sync"/>
+        <env name="APP_URL" value="http://localhost:8000"/>
+        <env name="APP_DEBUG" value="true"/>
+        <env name="DB_HOST" value="127.0.0.1"/>
+        <env name="DB_PORT" value="3306"/>
+        <env name="DB_DATABASE" value="circle_test"/>
+        <env name="DB_USERNAME" value="root"/>
+    </php>
+</phpunit>
