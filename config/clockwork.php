@@ -16,7 +16,19 @@ return [
     |
     */
 
-    'enable' => null,
+    'enable' => false,
+
+    /*
+    |--------------------------------------------------------------------------
+    | Enable web UI
+    |--------------------------------------------------------------------------
+    |
+    | Enable or disable the Clockwork web UI available at  http://your.app/__clockwork
+    | Default: true
+    |
+    */
+
+    'web' => true,
 
     /*
     |--------------------------------------------------------------------------
@@ -56,6 +68,20 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Metadata expiration
+    |--------------------------------------------------------------------------
+    |
+    | Maximum lifetime of the metadata in seconds, metadata for older requests
+    | will automatically be deleted when storing new requests.
+    | When set to false, metadata will never be deleted.
+    | Default: 1 week
+    |
+    */
+
+    'storage_expiration' => 60 * 24 * 7,
+
+    /*
+    |--------------------------------------------------------------------------
     | Filter collected data
     |--------------------------------------------------------------------------
     |
@@ -65,7 +91,8 @@ return [
     */
 
     'filter' => [
-        'routes',    // collecting routes data on every request might use a lot of disk space
+        'cacheQueries', // collecting cache queries in cache-heavy might have a negative performance impact and use a lot of disk space
+        'routes', // collecting routes data on every request might use a lot of disk space
         'viewsData', // collecting views data, including all variables passed to the view on every request might use a lot of disk space
     ],
 
@@ -85,24 +112,16 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Additional data sources
+    | Ignored events
     |--------------------------------------------------------------------------
     |
-    | You can use this option to register additional data sources with Clockwork.
-    | Keys specify the name under which the data source will be registered in the
-    | IoC container, values are closures accepting Laravel application instance as
-    | the only argument and returning an instance of the data source.
+    | Array of event names that will be ignored when collecting data for the "events" tab.
+    | By default all framework-specific events are also ignored, set to false to log
+    | all possible fired events.
     |
     */
 
-    'additional_data_sources' => [
-        // Note, this is for example only, laravel-doctrine contains Clockwork support out of the box, please follow the
-        // documentation at http://www.laraveldoctrine.org/docs/current/orm/config-file
-
-        // 'clockwork.doctrine' => function($app)
-        // {
-        // 	return new \Clockwork\DataSource\DoctrineDataSource($app['Doctrine\ORM\EntityManager']);
-        // }
+    'ignored_events' => [
     ],
 
     /*
@@ -132,5 +151,22 @@ return [
     'headers' => [
         // 'Accept' => 'application/vnd.com.whatever.v1+json',
     ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | Server-Timing
+    |--------------------------------------------------------------------------
+    |
+    | Clockwork supports the W3C Server Timing specification, which allows for
+    / collecting a simple performance metrics in a cross-browser way. Eg. in
+    / Chrome, your app, database and timeline event timings will be shown
+    / in the Dev Tools network tab.
+    / This setting specifies the max number of timeline events that will be sent.
+    | When set to false, Server-Timing headers will not be set.
+    | Default: 10
+    |
+    */
+
+    'server_timing' => 10,
 
 ];
