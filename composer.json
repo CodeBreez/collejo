@@ -6,7 +6,7 @@
     "type": "project",
     "require": {
         "php": ">=7.1.3",
-        "codebreez/collejo-app": "^2.0.0"
+        "codebreez/collejo-app": "~2.0.0"
     },
     "require-dev": {
         "filp/whoops": "~2.0",
